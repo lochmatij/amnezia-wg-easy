@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "scripts": {
-    "build": "DOCKER_BUILDKIT=1 docker build --tag wg-easy .",
-    "launch": "docker compose up -d"
+    "build": "DOCKER_BUILDKIT=1 docker build --tag amnezia-wg-easy .",
+    "launch": "docker-compose up -d"
   }
 }
